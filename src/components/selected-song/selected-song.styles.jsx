@@ -21,7 +21,6 @@ export const SongInfo = styled.div`
   h2 {
     font-weight: 800;
     padding-bottom: 15px;
-    color: #1c1c1c;
   }
 
   h3 {

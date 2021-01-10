@@ -5,6 +5,8 @@ export const PlayerWrapper = styled.section``;
 export const ProgressBarWrapper = styled.div`
   display: flex;
   align-items: center;
+  width: 80%;
+  margin: auto;
 `;
 
 export const ProgressBar = styled.input`

@@ -4,10 +4,11 @@ export const SongPreviewWrapper = styled.div`
   display: flex;
   padding: 20px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
+  background: ${({ active }) => active && "#d6f0ff"};
 
   &:hover {
-    background: #ffdeff;
+    background: ${({ active }) => !active && "#fae0fa"};
   }
 
   img {

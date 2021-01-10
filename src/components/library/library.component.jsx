@@ -5,7 +5,7 @@ import { LibraryWrapper } from "./library.styles";
 
 const Library = ({ id, songs, ...rest }) => {
   return (
-    <LibraryWrapper>
+    <LibraryWrapper {...rest}>
       <h1>Library</h1>
       {songs.map((song) => (
         <SongPreview song={song} songs={songs} key={song.id} {...rest} />
